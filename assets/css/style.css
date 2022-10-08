@@ -1,0 +1,33 @@
+html,body{
+    background-color: green;
+
+
+}
+
+.titulo{
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ font-size: 25px;
+
+}
+.colorVerde{
+      background-color: green;
+      color: white;
+      width: 100%;
+}
+
+.carta{
+    position: relative; /*permite mover las cartar como queramos*/
+    width: 150px;
+    left: 100px;
+    margin-left: -75px; /* con esto quedaran las cartas montadas*/
+    
+
+}
+
+#computadora-cartas, #jugador-cartas{
+height: 240px;
+
+}
